@@ -34,10 +34,10 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector3(0, 5, 0);
         }
 
-        //dýþýna taþarsa
+     
         if (transform.position.x > 7.0f)
         {
-            transform.position = new Vector3(0.0f, 0.32f, 0.0f); // geriye gidiyor dönüp benimki sifýr burda sorun yokk
+            transform.position = new Vector3(0.0f, 0.32f, 0.0f); 
         }
         else if (transform.position.x < -7.0f)
         {
