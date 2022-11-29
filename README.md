@@ -37,7 +37,8 @@ GameOver() fonksiyonu ile  endPanel gelmektedir ve oyun bitmektedir. endPanel ol
 
 manager_sc ve gain_point_sc scriptleri ekip arkadaşım tarafından yazılmıştır.    
 manager_sc scripti random konum ve sürede random olarak ürtilen nesnelerin kontrolünün sağlandığı kısımdır.          
-gain_point_sc scriptinde  ...
+gain_point_sc scriptinde  yol kontrolü sağlanmaktadır.
+
 
 
 
