@@ -1,2 +1,2 @@
 # unity 3D platform_oyunu-
-simmer.io/@irematak/degisen-top
+https://simmer.io/@irematak/degisen-top
