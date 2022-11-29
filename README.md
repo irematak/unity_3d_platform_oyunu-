@@ -25,6 +25,8 @@ PlayerMovement isimli scripti ben yazdım. Start fonksiyonu içinde cisim belli 
 
 PauseMenu scriptinde unityde panel oluşturdum; butonlar ve gerekli yazılar eklendikten sonra devam etme, durma, escape tuşuyla menüyü açma kapama fonksiyonlarını yazdım. Ekip arkadaşım ise yeniden başlama fonksiyonunu yazdı ve bu scriptteki fonksiyonlar unityde oluşturulan paneldeki butonlara atamasını yaptım.
 
+<img width="387" alt="oyun5" src="https://user-images.githubusercontent.com/75726319/204600054-ab215f71-4c0f-41fe-bbba-8d2174096520.PNG">
+
 
 player_sc scrriptini ekip arkadaşımla beraber yazdık. Ekip arkadaşım OnTriggerEnter fonksiyonunu yazdı. OnTriggerEnter fonksiyonunda eğer triggerlanan cismin tag'i untagged değilse ObstacleControl fonksiyonuna gönderiliyor ve cismin tag'i ball ise cismin rengi triggerlanan cisiminki ile değiştiriliyor. Triggerlandığı cismin tag'i ground1 ya da ground2 ise yol 1 defa daha öteleniyor.
 ObstacleControl fonksiyonundaysa bool isSameColor değişkeniyle de çarpışılan cisim ile oyuncunun rengi karşılaştırılmaktadır. Eğer çarpışılan cisim blok değilse ve aynı renkteyse konsola "Same Color" yazdırılır ve cismin boyutu 0.25f (Vector3.one/4) büyümektedir ve 10 puan artmaktadır. Triggerlanan cisim bu olaydan sonra ekrandan kaybolmaktadır. Eğer triggerlanan cisim bloksa ya da tag'i ball ve cisimle farklı renkteyse canı 1 azalmaktadır, 10 puan azalmaktadır, boyutu da 0.25f azalmaktadır. Tag'i ball ise triggerlanma sonucu yok olmaktadır. Eğer canı biterse ya da cismin boyutu .1f altına düşerse oyun biter ve GameOver() fonksiyonu çağrılır.
