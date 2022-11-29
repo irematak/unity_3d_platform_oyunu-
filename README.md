@@ -24,7 +24,7 @@ PauseMenu.cs
 PlayerMovement isimli script ben tarafından yazıldı. Start fonksiyonu içinde cisim belli bir hızla başlatıldı. Update fonksiyonundaysa oyundaki girdiler Input.GetAxis() ile alındı. Bu şekilde arrow tuşlarıyla cisim hareket ettirilebilmektedir. Cismin platformdan dışarı çıkması durumu da incelendi ve platformumuzun boyutuna göre transform.position.x değerlerine göre sağdan ya da soldan çıkma durumunda cismin konumu tam  olarak ortalandı. Bu scriptte yer alan OnCollisionEnter fonksiyonunda cismin bloğa çarptıktan sonra nasıl hareket etmesi gerektiği kodlandı. İlk olarak collision olan cismin tag'i kontrol edildi eğer tag'i blok ise çarpışma sonrasında cismin konumu önceki konumundan 3.0f geride olacak şekilde ayarlandı ve hızı da 0.5f kat arttırıldı. Scriptte ayrıca jump isimli bir fonksiyon bulunmaktadır fakat henüz kullanılmamaktadır.
 
 Durdurma menüsü ben tarafından geliştirildi.  Durdurma menüsü için unityde panel,butonlar ve gerekli yazılar eklendi.
-PauseMenu scriptinde sonra devam etme, durma, escape tuşuyla menüyü açma kapama fonksiyonları da ben tarafından yazıldı. Ekip arkadaşım ise yeniden başlama fonksiyonunu yazdı ve bu scriptteki fonksiyonlar unityde oluşturulan paneldeki butonlara ataması yapıldı.
+PauseMenu scriptindedevam etme, durma, escape tuşuyla menüyü açma kapama fonksiyonları da ben tarafından yazıldı. Ekip arkadaşım ise yeniden başlama fonksiyonunu yazdı ve bu scriptteki fonksiyonlar unityde oluşturulan paneldeki butonlara ataması yapıldı.
 
 <img width="500" alt="oyun5" src="https://user-images.githubusercontent.com/75726319/204600054-ab215f71-4c0f-41fe-bbba-8d2174096520.PNG">
 
