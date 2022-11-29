@@ -39,6 +39,9 @@ manager_sc ve gain_point_sc scriptleri ekip arkadaşım tarafından yazılmışt
 manager_sc scripti random konum ve sürede random olarak ürtilen nesnelerin kontrolünün sağlandığı kısımdır.          
 gain_point_sc scriptinde  yol kontrolü sağlanmaktadır.
 
+Ekip arkadaşımın kısmıyla alakalı daha fazla bilgi edinilmesi için aşağıda repo linki bırakılmıştır.   
+Ekip arkadaşımın reposu : https://github.com/hmyrcmn/degisen_top
+
 
 
 
