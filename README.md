@@ -4,13 +4,13 @@ Oyun simmer.io platformuna yüklenmiştir.
 Link : https://simmer.io/@irematak/degisen-top     
 
 ## Oynanış
-Oyunun genel mantığı oyun başladığı zaman cisim içinden geçtiği topun rengine göre renk ve boyut değiştirmektedir.
-Başlangıçta oyunucunun 5 tane canı bulunmaktadır.
-Eğer kendisiyle aynı renkte bir topun içinden geçerse boyutu artmaktadır.
-Farklı renkte bir topun içinden geçerse boyutu küçülmektedir, rengi de o topun rengi olmaktadır ve ayrıca canı bir azalmaktadır.
-Oyuncunun canı sadece farklı bir topun içinden geçince azalmaktadır. Sahnede engel olarak bloklar da bulunmaktadır.
-Tüm canların bitmesiyle oyun sonlanmaktadır.
-Arrow tuşlarıyla cisim hareket etmektedir.
+Oyunun genel mantığı oyun başladığı zaman cisim içinden geçtiği topun rengine göre renk ve boyut değiştirmektedir.    
+Başlangıçta oyunucunun 5 tane canı bulunmaktadır.    
+Eğer kendisiyle aynı renkte bir topun içinden geçerse boyutu artmaktadır.     
+Farklı renkte bir topun içinden geçerse boyutu küçülmektedir, rengi de o topun rengi olmaktadır ve ayrıca canı bir azalmaktadır.    
+Oyuncunun canı sadece farklı bir topun içinden geçince azalmaktadır. Sahnede engel olarak bloklar da bulunmaktadır.   
+Tüm canların bitmesiyle oyun sonlanmaktadır.    
+Arrow tuşlarıyla cisim hareket etmektedir.    
 
 <img width="500" alt="oyun1" src="https://user-images.githubusercontent.com/75726319/204599717-4c5adeef-a80c-4bba-b55a-50a7b036c4cf.PNG">
 
