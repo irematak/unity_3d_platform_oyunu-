@@ -34,6 +34,10 @@ GameOver() fonksiyonu ile  endPanel gelmektedir ve oyun bitmektedir. endPanel ol
 
 <img width="500" alt="oyun6" src="https://user-images.githubusercontent.com/75726319/204600727-419a3142-09b0-4c3c-a842-9be155cf5db4.PNG">
 
+manager_sc scripttinde random konum ve sürede random olarak ürtilen nesnelerin kontrolünün sağlandığı kısımdır. Bu scripti ekip arkadaşım tarafından yazılmıştır.      
+
+gain_point_sc scriptinde 
+
 
 
 
