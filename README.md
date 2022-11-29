@@ -4,7 +4,7 @@ Oyun simmer.io platformuna yüklenmiştir.
 Link : https://simmer.io/@irematak/degisen-top     
 
 ## Oynanış
-Oyunun genel mantığı oyun başladığı zaman cisim içinden geçtiği topun rengine göre renk ve boyut değiştirmektedir.    
+Oyununun genel mantığı cisimin içinden geçtiği topun rengine göre renk ve boyut değiştirmesidir.    
 Başlangıçta oyunucunun 5 tane canı bulunmaktadır.    
 Eğer kendisiyle aynı renkte bir topun içinden geçerse boyutu artmaktadır.     
 Farklı renkte bir topun içinden geçerse boyutu küçülmektedir, rengi de o topun rengi olmaktadır ve ayrıca canı bir azalmaktadır.    
@@ -35,9 +35,9 @@ GameOver() fonksiyonu ile  endPanel gelmektedir ve oyun bitmektedir. endPanel ol
 
 <img width="500" alt="oyun6" src="https://user-images.githubusercontent.com/75726319/204600727-419a3142-09b0-4c3c-a842-9be155cf5db4.PNG">
 
-manager_sc scripttinde random konum ve sürede random olarak ürtilen nesnelerin kontrolünün sağlandığı kısımdır. Bu scripti ekip arkadaşım tarafından yazılmıştır.      
-
-gain_point_sc scriptinde 
+manager_sc ve gain_point_sc scriptleri ekip arkadaşım tarafından yazılmıştır.    
+manager_sc scripti random konum ve sürede random olarak ürtilen nesnelerin kontrolünün sağlandığı kısımdır.          
+gain_point_sc scriptinde  ...
 
 
 
